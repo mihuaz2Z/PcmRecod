@@ -15,6 +15,7 @@
 		4E8205B61EDE667100DEC409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8205B41EDE667100DEC409 /* LaunchScreen.storyboard */; };
 		4E8205C11EDE667100DEC409 /* PcmRecodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8205C01EDE667100DEC409 /* PcmRecodTests.m */; };
 		4E8205CC1EDE667100DEC409 /* PcmRecodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8205CB1EDE667100DEC409 /* PcmRecodUITests.m */; };
+		4E8205DB1EDE66B300DEC409 /* PCMRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8205DA1EDE66B300DEC409 /* PCMRecorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4E8205C71EDE667100DEC409 /* PcmRecodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PcmRecodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E8205CB1EDE667100DEC409 /* PcmRecodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PcmRecodUITests.m; sourceTree = "<group>"; };
 		4E8205CD1EDE667100DEC409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8205D91EDE66B300DEC409 /* PCMRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMRecorder.h; sourceTree = "<group>"; };
+		4E8205DA1EDE66B300DEC409 /* PCMRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMRecorder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				4E8205AA1EDE667100DEC409 /* AppDelegate.m */,
 				4E8205AC1EDE667100DEC409 /* ViewController.h */,
 				4E8205AD1EDE667100DEC409 /* ViewController.m */,
+				4E8205D91EDE66B300DEC409 /* PCMRecorder.h */,
+				4E8205DA1EDE66B300DEC409 /* PCMRecorder.m */,
 				4E8205AF1EDE667100DEC409 /* Main.storyboard */,
 				4E8205B21EDE667100DEC409 /* Assets.xcassets */,
 				4E8205B41EDE667100DEC409 /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				4E8205AE1EDE667100DEC409 /* ViewController.m in Sources */,
 				4E8205AB1EDE667100DEC409 /* AppDelegate.m in Sources */,
+				4E8205DB1EDE66B300DEC409 /* PCMRecorder.m in Sources */,
 				4E8205A81EDE667100DEC409 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5E8LWHA5V7;
 				INFOPLIST_FILE = PcmRecod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mihua.PcmRecod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5E8LWHA5V7;
 				INFOPLIST_FILE = PcmRecod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mihua.PcmRecod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
